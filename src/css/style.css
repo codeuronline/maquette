@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("http://fonts.cdnfonts.com/css/dark-seventh-personal-use");
 * {
   box-sizing: border-box;
@@ -8,14 +7,9 @@
   list-style: none;
 }
 
-.wrapper {
-  z-index: 100;
-  position: relative;
-}
-
 body {
+  text-decoration: none;
   font-family: "Dark Seventh - Personal Use", sans-serif;
-  background-image: url(../image/src/image/fleur-noire-et-blanche-de-rose-avec-les-feuilles-la-tige-élément-décoratif-pour-le-tatouage-cC:\laragon\www\maquette\src\image\fleur-noire-et-blanche-de-rose-avec-les-feuilles-la-tige-élément-décoratif-pour-le-tatouage-carte-voeux-invitation-mariage-main-129527209.jpgarte-voeux-invitation-mariage-main-129527209.jpg);
 }
 
 .logo {
@@ -30,13 +24,34 @@ header {
   color: #e3dbc6;
 }
 
-footer, nav ul {
+footer, nav {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
   background: #567071;
-  background-color: #567071;
+}
+
+nav ul {
+  display: flex;
+  line-height: 50px;
+  margin: 0 15px;
+  padding: 5px;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #e6dcc3;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-shadow: #0a0700;
+  background: #567071;
+  color: #80122f;
+  text-decoration: none;
 }
 
 .bandeau {
@@ -73,20 +88,6 @@ footer, nav ul {
   background-color: #567071;
   width: 100%;
   display: flex;
-}
-
-nav ul {
-  float: right;
-  margin-right: 20px;
-}
-
-nav a {
-  color: #e6dcc3;
-  text-decoration: none;
-}
-nav a:hover {
-  color: brown;
-  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
