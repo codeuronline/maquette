@@ -1,17 +1,21 @@
-$colorfont: #e3dbc6;
-@import url('http://fonts.cdnfonts.com/css/dark-seventh-personal-use');
 *{
-    box-sizing: border-box;
     margin:0px;
     padding:0px;
-    font-size:30px;
     list-style: none;
+    text-decoration: none;
 }
+$colorfont: #e3dbc6;
+@import url('http://fonts.cdnfonts.com/css/dark-seventh-personal-use');
+
 
 body{
-    text-decoration: none;
+        
     font-family: 'Dark Seventh - Personal Use', sans-serif;
-
+    font-size: 30px;
+    @media screen and (max-width:375px){    
+        font-size: 15px;
+       
+    }
 }
 
 .logo{
@@ -62,6 +66,7 @@ padding: 0px;
 margin:0px;
 height:auto;
 }
+
 #creation{
     display: flex;
     border: 1px solid #e3dbc6;;
@@ -89,6 +94,7 @@ height:auto;
     width:100%;
     display:flex;
 }
+
 
 
 

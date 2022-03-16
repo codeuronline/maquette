@@ -1,15 +1,19 @@
 @import url("http://fonts.cdnfonts.com/css/dark-seventh-personal-use");
 * {
-  box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  font-size: 30px;
   list-style: none;
+  text-decoration: none;
 }
 
 body {
-  text-decoration: none;
   font-family: "Dark Seventh - Personal Use", sans-serif;
+  font-size: 30px;
+}
+@media screen and (max-width: 375px) {
+  body {
+    font-size: 15px;
+  }
 }
 
 .logo {
