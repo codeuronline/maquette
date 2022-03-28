@@ -1,31 +1,36 @@
 body{
     font-family: 'Dark Seventh - Personal Use', sans-serif;
-    font-size: 30px;
+    font-size: 50px;
     margin:0px;
     padding:0px;
     list-style: none;
     text-decoration: none;}
 
 .container{
+    padding: 50px;
+    margin:0px;
+    justify-content: center;
+    align-items: center;
     height:100vh;
     display: grid;
-    grid-template-columns: 70px repeat(3,1fr);
-    grid-template-rows: 1fr 2fr 8fr 2fr;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 2fr 8fr 2fr 2fr;
     grid-template-areas: 
-    "logo    nav     nav     nav"
-    "bandeau bandeau bandeau bandeau"
+    "nav    nav     nav     nav"
+    "bd bd bd bd"
     "content content content content"
+    "contact" "contact" "contact" "contact"
     "foot    foot   foot   foot";
 }
+
 .logo{
-    grid-area: logo;
     display:flex;
     align-items: center;
     justify-content: center;
     width:70px;
     height:70px;
     background:url(../image/logo.svg) no-repeat;
-    background-color: #e3dbc6;
+    background-color:#567071 ;
 
 }
 .logo:hover{
@@ -33,9 +38,15 @@ body{
     color: #e3dbc6;
 }
 .bandeau{
+    grid-area: bd;
     display:flex;
     align-items: center;
     justify-content: center;
+    
+    margin: 0px 50px 0px 50px;
+ /*   padding:50px;*/
+    border-radius: 5px;
+    border: 1px solid #0a0700;
     /*width:100%;
      background:url(../image/bandeau.svg) no-repeat;*/
 }
@@ -45,13 +56,19 @@ body{
     align-items: center;
     justify-content: center;
     color: #e3dbc6;
+    height:70px;
     background-color:#567071 ;
+    margin: 5px 50px 5px 50px;;
+    padding:0px,50px;
+    border-radius: 5px;
+    border: 1px solid #0a0700;
 }
 .navigation:hover{
     text-shadow: #0a0700 ;
     background:#567071;
     color :#80122f;
     text-decoration: none;
+    
 }
 .content{
     grid-area: content;
@@ -60,6 +77,10 @@ body{
     justify-content: center;
     color: #e3dbc6;
     background-color:#567071 ;
+    margin: 50px;
+    padding:50px;
+    border-radius: 5px;
+    border: 1px solid #0a0700;
 }
 .feature{
     grid-area: fea;
@@ -69,23 +90,49 @@ body{
     color: #e3dbc6;
     background-color:#567071 ;
 }
+.contact{
+    grid-area: contact;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #e3dbc6;
+    margin: 50px;
+    padding:25px,50px;
+    border-radius: 5px;
+    border: 1px solid #0a0700;
+    height:70px;
+    background-color:#567071 ;
 
-footer{
+}
+
+.footer{
     grid-area: foot;
     display:flex;
     align-items: center;
     justify-content: center;
     color: #e3dbc6;
+    height:70px;
+    margin: 50px;
+    padding:50px;
+    border-radius: 5px;
+    border: 1px solid #0a0700;
     background-color:#567071 ;
 
 }
 @media screen and (max-width:700px){
-    .container{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr,0.5fr 6fr 0.5fr;
-        grid-template-areas: "logo"
-        "nav"
-        "content"
-        "footer";
+    body{
+        font-family: 'Dark Seventh - Personal Use', sans-serif;
+        font-size: 20px;
+        margin:0px;
+        padding:0px;
+        list-style: none;
+        text-decoration: none;}
     }
-}
+    .container{
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 8fr 1fr ;
+        grid-template-areas: 
+        "logo" "nav" "bd" "content" "contact" "foot";
+    }
