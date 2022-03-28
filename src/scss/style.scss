@@ -116,8 +116,19 @@ height:auto;
     width:100%;
     display:flex;
 }
-
-
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+  }
+  .card1 { grid-area:  1 / 1 / 1; }
+  .card2 {grid-area:2/2/2;}
+  .card3 { grid-area: 3 / 3 / 4 ; }
+  .card4 { grid-area: 5/ 6/  6  ; }
+  .card5 {grid-area:7/7/8;}
+  .car6 {grid-area:9/9/9;}
+  
 
 
 
