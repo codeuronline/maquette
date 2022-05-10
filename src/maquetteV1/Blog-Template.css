@@ -1,0 +1,74 @@
+ .u-section-1 {
+  min-height: 380px;
+  background-image: url("images/bandeau.svg");
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 380px;
+}
+
+@media (max-width: 1199px) {
+   .u-section-1 {
+    min-height: 246px;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 313px;
+  }
+}
+
+@media (max-width: 991px) {
+   .u-section-1 {
+    min-height: 173px;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 240px;
+  }
+}
+
+@media (max-width: 767px) {
+   .u-section-1 {
+    min-height: 113px;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 180px;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 46px;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 113px;
+  }
+}.u-section-2 .u-sheet-1 {
+  min-height: 668px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 595px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 897px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 804px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 621px;
+  }
+}

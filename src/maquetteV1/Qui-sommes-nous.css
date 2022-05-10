@@ -1,0 +1,257 @@
+ .u-section-1 {
+  min-height: 484px;
+}
+
+.u-section-1 .u-image-1 {
+  height: 424px;
+  margin-top: 0;
+  margin-bottom: 60px;
+} .u-section-2 {
+  background-image: url("images/fleur-noire-et-blanche-de-rose-avec-les-feuilles-la-tige-lment-dcoratif-pour-le-tatouage-carte-voeux-invitation-mariage-main-1295272091.jpg");
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 1832px;
+}
+
+.u-section-2 .u-group-1 {
+  width: 333px;
+  min-height: 66px;
+  margin: -8px auto 0 -15px;
+}
+
+.u-section-2 .u-container-layout-1 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.u-section-2 .u-text-1 {
+  font-size: 1.5rem;
+  margin: 6px 0 0 43px;
+}
+
+.u-section-2 .u-shape-1 {
+  width: 522px;
+  height: 173px;
+  margin: 18px auto 0 78px;
+}
+
+.u-section-2 .u-group-2 {
+  width: 275px;
+  min-height: 78px;
+  height: auto;
+  margin: -44px 124px 0 auto;
+}
+
+.u-section-2 .u-container-layout-2 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.u-section-2 .u-text-2 {
+  font-size: 1.5rem;
+  margin: 9px 13px 0;
+}
+
+.u-section-2 .u-group-3 {
+  width: 340px;
+  min-height: 369px;
+  height: auto;
+  margin: 9px auto 0 -15px;
+}
+
+.u-section-2 .u-container-layout-3 {
+  padding: 12px 30px;
+}
+
+.u-section-2 .u-image-1 {
+  width: 233px;
+  height: 263px;
+  margin: 14px auto 0;
+}
+
+.u-section-2 .u-text-3 {
+  font-size: 1.5rem;
+  width: 163px;
+  margin: 18px auto 0;
+}
+
+.u-section-2 .u-group-4 {
+  width: 340px;
+  min-height: 369px;
+  height: auto;
+  margin: -288px 34px 0 auto;
+}
+
+.u-section-2 .u-container-layout-4 {
+  padding: 12px 30px;
+}
+
+.u-section-2 .u-image-2 {
+  width: 233px;
+  height: 263px;
+  margin: 15px auto 0;
+}
+
+.u-section-2 .u-text-4 {
+  font-size: 1.5rem;
+  width: 163px;
+  margin: 17px auto 0;
+}
+
+.u-section-2 .u-group-5 {
+  width: 340px;
+  min-height: 369px;
+  height: auto;
+  margin: -188px auto 0 348px;
+}
+
+.u-section-2 .u-container-layout-5 {
+  padding: 12px 30px;
+}
+
+.u-section-2 .u-image-3 {
+  width: 233px;
+  height: 263px;
+  margin: 15px auto 0;
+}
+
+.u-section-2 .u-text-5 {
+  font-size: 1.5rem;
+  width: 163px;
+  margin: 17px auto 0;
+}
+
+.u-section-2 .u-group-6 {
+  width: 221px;
+  min-height: 106px;
+  margin: 30px auto 60px -28px;
+}
+
+.u-section-2 .u-container-layout-6 {
+  padding: 30px 0;
+}
+
+.u-section-2 .u-text-6 {
+  font-size: 1.5rem;
+  margin: 0 0 0 17px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 1511px;
+  }
+
+  .u-section-2 .u-container-layout-1 {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+  .u-section-2 .u-group-2 {
+    height: auto;
+  }
+
+  .u-section-2 .u-container-layout-2 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .u-section-2 .u-group-3 {
+    height: auto;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-left: 243px;
+  }
+
+  .u-section-2 .u-group-4 {
+    height: auto;
+  }
+
+  .u-section-2 .u-image-2 {
+    margin-left: 243px;
+  }
+
+  .u-section-2 .u-group-5 {
+    height: auto;
+  }
+
+  .u-section-2 .u-image-3 {
+    margin-left: 243px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 1157px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 868px;
+  }
+
+  .u-section-2 .u-shape-1 {
+    margin-left: 18px;
+  }
+
+  .u-section-2 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-2 .u-container-layout-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-2 .u-container-layout-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-2 .u-group-5 {
+    margin-left: 200px;
+  }
+
+  .u-section-2 .u-container-layout-5 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 547px;
+  }
+
+  .u-section-2 .u-shape-1 {
+    width: 340px;
+    margin-left: 0;
+  }
+
+  .u-section-2 .u-group-2 {
+    margin-right: 65px;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-left: 107px;
+  }
+
+  .u-section-2 .u-group-4 {
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-image-2 {
+    margin-left: 107px;
+  }
+
+  .u-section-2 .u-group-5 {
+    margin-left: 0;
+  }
+
+  .u-section-2 .u-image-3 {
+    margin-left: 107px;
+  }
+}
